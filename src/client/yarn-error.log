@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/deepakverma/.nvm/versions/node/v14.15.4/bin/node /Users/deepakverma/.nvm/versions/node/v14.15.4/bin/yarn install
+
+PATH: 
+  /usr/local/opt/ruby@2.7/bin:/Users/deepakverma/.nvm/versions/node/v14.15.4/bin:/Users/deepakverma/.serverless/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/ruby/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/deepakverma/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/usr/local/opt/ruby@2.7/bin:/Users/deepakverma/.nvm/versions/node/v14.15.4/bin:/Users/deepakverma/.serverless/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/ruby/bin:/usr/local/opt/python/libexec/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://gyg-internal-npm-repo-632572904405.d.codeartifact.ap-southeast-2.amazonaws.com/npm/bhyve/react: Unauthenticated: request used expired credentials. Please renew your credentials.
+      at Request.params.callback [as _callback] (/Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at Gunzip.<anonymous> (/Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at Gunzip.emit (events.js:315:20)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "Bliue-frontend-tech-challenge",
+    "version": "0.1.0",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-scripts": "4.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:5000/",
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

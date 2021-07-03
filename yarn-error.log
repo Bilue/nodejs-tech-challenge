@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/deepakverma/.nvm/versions/node/v14.15.4/bin/node /Users/deepakverma/.nvm/versions/node/v14.15.4/bin/yarn install
+
+PATH: 
+  /usr/local/opt/ruby@2.7/bin:/Users/deepakverma/.nvm/versions/node/v14.15.4/bin:/Users/deepakverma/.serverless/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/ruby/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/deepakverma/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/usr/local/opt/ruby@2.7/bin:/Users/deepakverma/.nvm/versions/node/v14.15.4/bin:/Users/deepakverma/.serverless/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/ruby/bin:/usr/local/opt/python/libexec/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/deepakverma/projects/gyg/bilue-nodejs-tech-challenge/package.json: Unexpected token } in JSON at position 264
+      at JSON.parse (<anonymous>)
+      at /Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/deepakverma/.nvm/versions/node/v14.15.4/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bilue-aws-engineer-tech-challenge",
+    "version": "1.0.0",
+    "description": "Technical code challenge",
+    "license": "MIT",
+    "scripts": {
+      "start": "yarn ts-node src/server.ts",
+      "watch": "NODE_ENV=development yarn ts-node-dev src/server.ts",
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "common-tags": "^1.8.0",
+      "express": "^4.17.1",
+      "express-validator": "^6.4.0"
+    },
+    "devDependencies": {
+      "@types/common-tags": "^1.8.0",
+      "@types/express": "^4.17.3",
+      "@types/express-validator": "^3.0.0",
+      "@types/node": "^13.9.0",
+      "ts-node": "^8.6.2",
+      "ts-node-dev": "^1.0.0-pre.44",
+      "typescript": "3.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
