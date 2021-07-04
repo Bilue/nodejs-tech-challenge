@@ -3,6 +3,7 @@ export const auctions = [
         id: 1,
         products: [
             {
+                id: 1,
                 title: 'Test Product 1',
                 description: 'this is a test product',
                 condition: 'used',
@@ -16,6 +17,7 @@ export const auctions = [
         id: 2,
         products: [
             {
+                id: 2,
                 title: 'Test Product 2',
                 description: 'this is a test product',
                 condition: 'used',
@@ -29,6 +31,7 @@ export const auctions = [
         id: 3,
         products: [
             {
+                id: 3,
                 title: 'Test Product 3',
                 description: 'this is a test product',
                 condition: 'used',
@@ -37,6 +40,7 @@ export const auctions = [
                 minBid: 30,
             },
             {
+                id: 4,
                 title: 'Test Product 4',
                 description: 'this is a test product',
                 condition: 'used',
@@ -50,6 +54,7 @@ export const auctions = [
         id: 4,
         products: [
             {
+                id: 5,
                 title: 'Test Product 5',
                 description: 'this is a test product',
                 condition: 'used',

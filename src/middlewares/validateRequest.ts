@@ -6,7 +6,6 @@ export async function validateRequest(
     res: Response,
     next: NextFunction
 ) {
-  console.log('I am h')
   await body("id", "Id must not be empty")
     .escape()
     .trim()
